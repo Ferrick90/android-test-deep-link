@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 //                intent.setData(myAction);
 //                startActivity(intent);
 //            }
-            val openURL = Intent(Intent.ACTION_MAIN)
+            val openURL = Intent(Intent.ACTION_VIEW)
             openURL.data = Uri.parse("comtsmmyshield://open")
             startActivity(openURL)
         }
